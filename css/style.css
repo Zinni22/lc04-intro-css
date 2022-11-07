@@ -1,0 +1,40 @@
+#main-title{
+    color: #fc0871;
+    text-align: center;
+}
+
+
+.super_special_style{
+    text-decoration: line-through;
+}
+.special_style{
+    border: 2px dashed rgb(209, 54, 3);
+}
+h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style:italic;
+    font-weight:300;
+}
+
+
+
+div{
+    height:300px;
+    background-image: url("../img/pattern.jpg");
+    /* scrivendo ../ posso risalire a percorsi anche se css e img non sono nella stessa cartella */
+    background-size: 50% 50%;
+    /* occupa il 50% del contenitore */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* occupa tutto il conteniore */
+    background-size:contain;
+    /* contiene senza stretchare l'immagine, quindi spesso non coprira tutto il contenitore */
+    background-position: center 0%;
+}
+
+
+img{
+    width:400px; 
+    /* il 100% è relativo al contenitore */
+}
